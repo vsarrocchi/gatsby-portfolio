@@ -1,0 +1,82 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.layout {
+    margin: auto;
+    padding: 0;
+    max-width: 900px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3rem;
+    margin: 1.5rem 0;
+}
+
+.header-ul {
+    margin: 0;
+}
+
+.home-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.home-image {
+    margin: 0;
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+}
+
+.about-image {
+    border-radius: 50%;
+    width: 70%;
+    height: 70%;
+}
+
+.box-portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.portfolio-img {
+    height: 300px;
+}
+
+.portfolio-item {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 232, 243);
+    line-height: 2rem;
+}
+
+.visit-site {
+    margin: 20px;
+}
+
+.visit-site-btn {
+    border: 1px solid #b1aeae;
+    color: #797676;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.charts-titles {
+    margin-top: 70px;
+}
