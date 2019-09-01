@@ -28,9 +28,8 @@ const data = {
 	}]
 };
 
-export default ({ children }) => (
+export default () => (
     <div>
       <Doughnut data={data} />
-      {children}
     </div>
   )
