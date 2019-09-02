@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import Polar from "../components/polar"
 import Doughnut from "../components/doughnut"
-import Bar from "../components/Bar"
+import Bar from "../components/bar"
 
 export default () => (
   <Layout>
